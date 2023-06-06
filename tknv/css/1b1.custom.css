@@ -1,13 +1,13 @@
-.menu--product-categories .menu--dropdown {
+.menu--product-categories .menu--dropdown, .menu--dropdown > li.has-mega-menu .mega-menu {
     max-height: 70vh;
     overflow-x: auto;
 }
 
-.menu--product-categories .menu--dropdown::-webkit-scrollbar, .widget_shop::-webkit-scrollbar {
+.menu--product-categories .menu--dropdown::-webkit-scrollbar, .menu--dropdown > li.has-mega-menu .mega-menu::-webkit-scrollbar {
     -webkit-appearance: none;
 }
 
-.menu--product-categories .menu--dropdown::-webkit-scrollbar-thumb, .widget_shop::-webkit-scrollbar-thumb {
+.menu--product-categories .menu--dropdown::-webkit-scrollbar-thumb, .menu--dropdown > li.has-mega-menu .mega-menu::-webkit-scrollbar-thumb {
     background-color: #e1e1e1;
     border-radius: 10px;
     border: 1px solid #cacaca;
