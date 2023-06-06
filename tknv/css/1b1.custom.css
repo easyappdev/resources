@@ -1,5 +1,5 @@
 .menu--product-categories .menu--dropdown {
-    max-height: 100vh;
+    max-height: 70vh;
     overflow-x: auto;
 }
 
