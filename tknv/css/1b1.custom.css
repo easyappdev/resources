@@ -12,3 +12,30 @@
     border-radius: 10px;
     border: 1px solid #cacaca;
 }
+
+.form-group--number-custom {
+    max-width: 100px;
+}
+
+.form-group--number-custom .form-control {
+    height: 25px;
+    border-radius: 0; 
+    border-color: rgba(0, 0, 0, 0.25);
+}
+
+.form-group--number-custom button {
+    font-size: 12px;
+}
+
+.form-group--number-custom button.up {
+    right: 10px;
+}
+
+.form-group--number-custom button.down {
+    left: 10px;
+}
+
+.btn-corpo {
+    color: @color-primary;
+}
+
