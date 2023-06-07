@@ -36,6 +36,12 @@
 }
 
 .btn-corpo {
-    color: @color-primary;
+    background-color: #3289c5;
+    color: #fff;
+}
+
+.btn-corpo:hover {
+    background-color: #2c7bb1;
+    color: #fff;
 }
 
