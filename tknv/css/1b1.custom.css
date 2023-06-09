@@ -45,3 +45,12 @@
     color: #fff;
 }
 
+.ps-product .ps-product__price_usd {
+    font-size: 16px;
+    color: #3289c5;
+}
+
+.ps-product .ps-product__price {
+    font-size: 12px;
+}
+
