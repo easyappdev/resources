@@ -66,6 +66,7 @@
 
 .ps-product--detail .ps-product__price_ars {
     font-size: 16px;
+    margin-bottom: 0;
 }
 
 .ps-product--detail .ps-product__shopping .form-group--number input {
