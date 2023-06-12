@@ -1,3 +1,4 @@
+/*********** MENU CATEGORÍAS DESKTOP ***********/
 .menu--product-categories .menu--dropdown, .menu--dropdown > li.has-mega-menu .mega-menu {
     max-height: 70vh;
     overflow-x: auto;
@@ -12,7 +13,9 @@
     border-radius: 10px;
     border: 1px solid #cacaca;
 }
+/*********** MENU CATEGORÍAS DESKTOP ***********/
 
+/*********** LISTADO DE PRODUCTOS ***********/
 .form-group--number-custom {
     max-width: 100px;
 }
@@ -53,4 +56,23 @@
 .ps-product .ps-product__price_ars {
     font-size: 12px;
 }
+/*********** LISTADO DE PRODUCTOS ***********/
 
+/*********** VISTA PREVIA ***********/
+.ps-product--detail .ps-product__price_usd {
+    font-size: 24px;
+    color: #3289c5;
+}
+
+.ps-product--detail .ps-product__price_ars {
+    font-size: 16px;
+}
+
+.ps-product--detail .ps-product__shopping .form-group--number input {
+    height: 49px;
+}
+
+.ps-product--detail .ps-product__shopping .btn-corpo {
+    width: 200px;
+}
+/*********** VISTA PREVIA ***********/
