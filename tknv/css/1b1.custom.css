@@ -69,16 +69,12 @@
     margin-bottom: 20px;
 }
 
-.ps-page--shop .ps-product:hover .ps-product__content:not(.hover) {
-    display: none;
-}
-
 @media (max-width: 1199px) {
 	.ps-page--shop .ps-product:not(.ps-product--wide) .ps-product__content:not(.hover) {
 	    position: relative;
 	    display: block;
 	    left: 0;
-	    padding: 0 20px 20px;
+	    padding: 0x;
 	    border-bottom: none;
 	}
 }
@@ -94,6 +90,10 @@
     top: auto;
     padding: 0;
     width: 100%;
+}
+
+.ps-page--shop .ps-product:hover .ps-product__content:not(.hover) {
+    display: none !important;
 }
 
 /*********** LISTADO DE PRODUCTOS ***********/
