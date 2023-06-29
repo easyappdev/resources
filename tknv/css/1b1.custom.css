@@ -61,6 +61,40 @@
     font-size: 10px;
     font-weight: 600;
 }
+
+.ps-product {
+    position: relative;
+    padding: 20px 20px 0;
+    border: 1px solid transparent;
+    margin-bottom: 20px;
+}
+
+.ps-page--shop .ps-product:hover .ps-product__content:not(.hover) {
+    display: none;
+}
+
+@media (max-width: 1199px) {
+	.ps-page--shop .ps-product:not(.ps-product--wide) .ps-product__content:not(.hover) {
+	    position: relative;
+	    display: block;
+	    left: 0;
+	    padding: 0 20px 20px;
+	    border-bottom: 1px solid #dfdfdf;
+	    border-top: none;
+	}
+}
+
+.ps-product:hover .ps-product__content.hover {
+    height: auto;
+    visibility: visible;
+    opacity: 1;
+    border: none;
+    position: relative;
+    display: block;
+    right: 0;
+    top: auto;
+}
+
 /*********** LISTADO DE PRODUCTOS ***********/
 
 /*********** VISTA PREVIA ***********/
