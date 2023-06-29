@@ -56,6 +56,11 @@
 .ps-product .ps-product__price_ars {
     font-size: 12px;
 }
+
+.ps-product .ps-product__rating .product-code {
+    font-size: 10px;
+    font-weight: 600;
+}
 /*********** LISTADO DE PRODUCTOS ***********/
 
 /*********** VISTA PREVIA ***********/
