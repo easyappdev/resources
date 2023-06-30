@@ -96,6 +96,10 @@
     display: none !important;
 }
 
+.font-light-weight {
+    font-weight: 510;
+}
+
 /*********** LISTADO DE PRODUCTOS ***********/
 
 /*********** VISTA PREVIA ***********/
