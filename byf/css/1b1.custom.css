@@ -2,3 +2,11 @@
 	right: auto !important;
 	left: 0;
 }
+
+.ps-shopping-cart .ps-section__footer figure .delivery-address {
+    position: relative;
+    display: block;
+    font-size: 20px;
+    color: #000;
+    margin-bottom: 15px;
+}
