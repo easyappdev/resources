@@ -1,0 +1,6 @@
+:root {
+	--color-primary: #ed711b;
+	--color-primary-hover: #f0863c;
+}
+
+@import "https://cdn.jsdelivr.net/gh/easyappdev/resources@v1.0.43/general/css/1b2.main.css";
