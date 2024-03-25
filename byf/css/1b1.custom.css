@@ -43,16 +43,17 @@
 	top: 152px; /* .navigation--list's height + .navigation--mobile's height */ /* v2: menu DESPUES que barra de logo */
 }
 
-@media (max-width: 1199px) { /* fix */
-	.ps-page--single {
-		padding-top: 152px; /* .navigation--list's height + .navigation--mobile's height */ /* v2: menu DESPUES que barra de logo */
-	}
+@media (max-width: 1199px) { /* fixes */
 	.ps-shopping {
-	    margin-top: 110px;
+	    margin-top: 0;
 	}
 
 	body {
-		padding-top: 100px;
+		padding-top: 152px; /* .navigation--list's height + .navigation--mobile's height */ /* v2: menu DESPUES que barra de logo */
+	}
+
+	.ps-form--account {
+	    padding-top: 0;
 	}
 }
 
