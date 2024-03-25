@@ -50,6 +50,10 @@
 	.ps-shopping {
 	    margin-top: 110px;
 	}
+
+	#divBody {
+		padding-top: 100px;
+	}
 }
 
 @media (min-width: 1200px) { /* fix para cuando queda abierto el sidebar y se redimensiona a desktop */
