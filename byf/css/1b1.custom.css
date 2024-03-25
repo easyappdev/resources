@@ -14,3 +14,51 @@
 .ps-product .ps-product__price {
     font-size: 18px;
 }
+
+/***************************/
+/* Parche para mover la barra de menu mobile al header */
+/* estan las 2 opciones: antes y despues de la barra del logo */
+
+.navigation--list {
+	bottom: auto;
+	/* top: 0; */	/* v1: menu ANTES de barra de logo */
+	/* v2: menu DESPUES que barra de logo */
+	top: 80px;	/* .navigation--mobile's height */
+	border-bottom: 1px solid #ccc;
+}
+
+.header--mobile .navigation--mobile {
+	position: fixed;
+	/* top: 71px !important; */ /* .navigation--list's height */ /* v1: menu ANTES de barra de logo */
+	top: 0 !important; /* v2: menu DESPUES que barra de logo */
+	width: 100%;
+	z-index: 1000;
+	background-color: #E8E0DF;
+	-ms-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.12);
+	box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.12);
+}
+
+.ps-panel--sidebar {
+	/*top: 71px;*/ /* .navigation--list's height */ /* v1: menu ANTES de barra de logo */
+	top: 152px; /* .navigation--list's height + .navigation--mobile's height */ /* v2: menu DESPUES que barra de logo */
+}
+
+@media (max-width: 1199px) { /* fix */
+	.ps-page--single {
+		padding-top: 152px; /* .navigation--list's height + .navigation--mobile's height */ /* v2: menu DESPUES que barra de logo */
+	}
+}
+
+@media (min-width: 1200px) { /* fix para cuando queda abierto el sidebar y se redimensiona a desktop */
+	.ps-panel--sidebar {
+		display: none;
+	}
+
+	.ps-site-overlay.active {
+		visibility: hidden;
+		opacity: 0;
+	}
+}
+
+/* FIN PARCHE */
+/***************************/
