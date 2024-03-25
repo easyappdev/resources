@@ -60,5 +60,10 @@
 	}
 }
 
+.ps-cart--mobile .ps-cart__content {
+	padding: 20px 10px 0;
+	min-height: calc(100vh - 300px);
+}
+
 /* FIN PARCHE */
 /***************************/
