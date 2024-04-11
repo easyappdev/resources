@@ -75,3 +75,33 @@
 
 /* FIN PARCHE */
 /***************************/
+
+/* Imaganes thumb con galeria */
+
+.item-thumb-change {
+	position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 22px;
+    width: 22px;
+    height: 22px;
+    text-align: center;
+    line-height: 22px;
+}
+
+.item-thumb-change.prev {
+	left: 0;
+}
+
+.item-thumb-change.next {
+	right: 0;
+}
+
+.ps-product .ps-product__thumbnail .ps-product__actions {
+	position: relative !important;
+    bottom: auto !important;
+    left: auto !important;
+    transform: none !important;
+    justify-content: center !important;
+}
+/***************************/
