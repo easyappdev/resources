@@ -81,9 +81,9 @@
 /* Imaganes thumb con galeria */
 
 .item-thumb-change {
-	position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+    position: absolute;
+    top: 40%;
+    transform: translateY(-40%);
     font-size: 22px;
     width: 22px;
     height: 22px;
