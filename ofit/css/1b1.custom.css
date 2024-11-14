@@ -2,3 +2,9 @@
     display: flex;
     align-items: center;
 }
+.red li:nth-of-type(1) {
+    background: #FF9326;
+}
+.yellow li:nth-of-type(2) {
+    background: #f8fd00;
+}
