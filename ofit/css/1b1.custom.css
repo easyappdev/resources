@@ -8,3 +8,8 @@
 .yellow li:nth-of-type(2) {
     background: #f8fd00;
 }
+
+.owl-carousel .owl-stage {
+    display: flex;
+    justify-content: center;
+}
