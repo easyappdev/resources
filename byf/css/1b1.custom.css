@@ -112,3 +112,6 @@
 	opacity: inherit;
 	height: auto;
 }
+.ps-product .ps-product__title {
+	color: #312421;
+}
