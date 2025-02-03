@@ -121,3 +121,7 @@
 .mega-menu h4 {
 	color: #312421;
 }
+
+.mega-menu .mega-menu__list li a {
+	color: #312421;
+}
