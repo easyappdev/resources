@@ -33,9 +33,10 @@
 	top: 0 !important; /* v2: menu DESPUES que barra de logo */
 	width: 100%;
 	z-index: 1000;
-	background-color: #E8E0DF;
 	-ms-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.12);
 	box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.12);
+	background-color: #F9F8F7;
+    	height: 62px;
 }
 
 .ps-panel--sidebar {
