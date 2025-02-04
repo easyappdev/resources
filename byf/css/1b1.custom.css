@@ -107,9 +107,7 @@
     justify-content: center !important;
 }
 /***************************/
-.ps-product__content {
-	text-align: center;
-}
+
 .ps-product:hover .ps-product__content {
 	visibility: inherit;
 	opacity: inherit;
